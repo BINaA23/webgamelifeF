@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲推薦榜單</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">我的遊戲人生</a>
+    <div>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+        <li class="nav-item"><a class="nav-link active" href="ranking.html">推薦榜單</a></li>
+        <li class="nav-item"><a class="nav-link active" href="DOCTYPE.html">遊戲歷程</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">關於我</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<div class="container mt-5">
+  <h2>最感人的遊戲結局(可以點開)</h2>
+<div class="row">
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/FFVIIRINTERGRADE.jpg" class="card-img-top" alt="FF7" data-bs-toggle="modal" data-bs-target="#modalFF7">
+      <div class="card-body">
+        <h5 class="card-title">最終幻想7 重製版</h5>
+        <p class="card-text">艾莉絲的劇情超催淚，真的哭爛。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/horizon.jpg" class="card-img-top" alt="Horizon" data-bs-toggle="modal" data-bs-target="#modalHorizon">
+      <div class="card-body">
+        <h5 class="card-title">地平線：期待黎明</h5>
+        <p class="card-text">揭開母親的真相那段真的震撼到我。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/ze.jpg" class="card-img-top" alt="Zelda" data-bs-toggle="modal" data-bs-target="#modalZelda">
+      <div class="card-body">
+        <h5 class="card-title">薩爾達 曠野之息</h5>
+        <p class="card-text">走在荒野裡的孤獨感，久久不散。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <h2 class="mt-5">最好玩的合作遊戲</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/apex.jpeg" class="card-img-top" alt="Apex">
+        <div class="card-body">
+          <h5 class="card-title">Apex Legends</h5>
+          <p class="card-text">從高中開始玩到現在，跟朋友一起激戰特別爽！</p>
+        </div>
+      </div>
+    </div>
+    <!-- 更多卡片 -->
+  </div>
+</div>
+
+<div class="modal fade" id="modalFF7" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">最終幻想7 重製版</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/FFVIIRINTERGRADE.jpg" class="img-fluid mb-3" alt="FF7 大圖">
+        <p>艾莉絲的劇情超催淚，真的哭爛。看到她的命運時我直接停止操作幾分鐘，心裡有種淡淡的絕望感，這才是 RPG 讓我共鳴最深的一次。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modalHorizon" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">地平線：期待黎明</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/horizon.jpg" class="img-fluid mb-3" alt="Horizon">
+        <p>揭開母親真相的瞬間讓我震撼到說不出話，這段劇情真的非常動人。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modalZelda" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">薩爾達 曠野之息</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/ze.jpg" class="img-fluid mb-3" alt="Zelda">
+        <p>獨自探索寂靜荒野的孤獨感，讓我產生強烈共鳴，是一種很深刻的感動。</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
